@@ -23,10 +23,10 @@ public class GoogleCustomSearchApplication {
      * @throws IOException -
      */
     public static void main(String[] args) throws IOException {
-        String googleUserApiKey = "";
-        String userCustomSearchKey = "";
+        String apiKey = "";
+        String customSearchId = "";
 
-        String googleApiUrlStr = "https://www.googleapis.com/customsearch/v1?key=" + googleUserApiKey + "&cx=" + userCustomSearchKey + "&q=";
+        String googleApiUrlStr = "https://www.googleapis.com/customsearch/v1?key=" + apiKey + "&cx=" + customSearchId + "&q=";
 
         String searchKeyword = "lectures";
         String charset = "UTF-8";
